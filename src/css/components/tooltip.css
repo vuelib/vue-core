@@ -1,11 +1,13 @@
 .ess.tooltip {
   /* float: left; */
+  z-index: 9999;
   display: block;
   padding: .8rem;
   font-size: 12px;
   font-weight: 700;
   border-radius: 6px;
   position: absolute;
+  box-shadow: 0 15px 50px 0 rgba(82,63,105,.15);
 }
 
 .ess.tooltip.dark {

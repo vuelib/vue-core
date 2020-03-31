@@ -1,20 +1,8 @@
 <template>
-  <div class="ess toolbar shadow-dp-1 light">
+  <div class="ess toolbar" :class="[isSeparator]">
     <slot></slot>
   </div>
 </template>
-
-<style>
-  .ess.toolbar {
-    width: 100%;
-    height: 60px;
-    padding: 16px;
-    /* background: red; */
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-  }
-</style>
 
 <script lang="ts">
 
@@ -26,7 +14,15 @@ import { Component, Prop } from 'vue-property-decorator';
   name: 'EssToolbar',
 })
 export default class EssToolbar extends Vue {
-  @Prop({ default: 'light' })
-  theme!: string;
+  @Prop({ default: false })
+  separator!: boolean;
+
+  get isSeparator(): string | null {
+    if (this.separator) {
+      return 'toolbar-separator';
+    }
+
+    return null;
+  }
 }
 </script>

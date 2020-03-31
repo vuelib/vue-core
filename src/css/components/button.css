@@ -145,6 +145,91 @@ input[type=submit].ess.filled.primary:hover {
   filter: brightness(90%);
 }
 
+button.ess.filled.accent,
+submit.ess.filled.accent,
+input[type=reset].ess.filled.accent,
+input[type=button].ess.filled.accent,
+input[type=submit].ess.filled.accent {
+  color: var(--white);
+  background: var(--accent);
+}
+
+button.ess.filled.accent:hover,
+submit.ess.filled.accent:hover,
+input[type=reset].ess.filled.accent:hover,
+input[type=button].ess.filled.accent:hover,
+input[type=submit].ess.filled.accent:hover {
+  filter: brightness(90%);
+}
+
+button.ess.filled.success,
+submit.ess.filled.success,
+input[type=reset].ess.filled.success,
+input[type=button].ess.filled.success,
+input[type=submit].ess.filled.success {
+  color: var(--white);
+  background: var(--success);
+}
+
+button.ess.filled.success:hover,
+submit.ess.filled.success:hover,
+input[type=reset].ess.filled.success:hover,
+input[type=button].ess.filled.success:hover,
+input[type=submit].ess.filled.success:hover {
+  filter: brightness(90%);
+}
+
+button.ess.filled.error,
+submit.ess.filled.error,
+input[type=reset].ess.filled.error,
+input[type=button].ess.filled.error,
+input[type=submit].ess.filled.error {
+  color: var(--white);
+  background: var(--error);
+}
+
+button.ess.filled.error:hover,
+submit.ess.filled.error:hover,
+input[type=reset].ess.filled.error:hover,
+input[type=button].ess.filled.error:hover,
+input[type=submit].ess.filled.error:hover {
+  filter: brightness(90%);
+}
+
+button.ess.filled.warn,
+submit.ess.filled.warn,
+input[type=reset].ess.filled.warn,
+input[type=button].ess.filled.warn,
+input[type=submit].ess.filled.warn {
+  color: var(--white);
+  background: var(--warn);
+}
+
+button.ess.filled.warn:hover,
+submit.ess.filled.warn:hover,
+input[type=reset].ess.filled.warn:hover,
+input[type=button].ess.filled.warn:hover,
+input[type=submit].ess.filled.warn:hover {
+  filter: brightness(90%);
+}
+
+button.ess.filled.info,
+submit.ess.filled.info,
+input[type=reset].ess.filled.info,
+input[type=button].ess.filled.info,
+input[type=submit].ess.filled.info {
+  color: var(--white);
+  background: var(--info);
+}
+
+button.ess.filled.info:hover,
+submit.ess.filled.info:hover,
+input[type=reset].ess.filled.info:hover,
+input[type=button].ess.filled.info:hover,
+input[type=submit].ess.filled.info:hover {
+  filter: brightness(90%);
+}
+
 /* CLEANED */
 
 button.ess.cleaned.light,
@@ -225,6 +310,136 @@ input[type=submit].ess.cleaned.primary:disabled {
   background: var(--primary-alpha-20);
 }
 
+button.ess.cleaned.accent,
+submit.ess.cleaned.accent,
+input[type=reset].ess.cleaned.accent,
+input[type=button].ess.cleaned.accent,
+input[type=submit].ess.cleaned.accent {
+  color: var(--accent);
+  background: transparent;
+}
+
+button.ess.cleaned.accent:hover,
+submit.ess.cleaned.accent:hover,
+input[type=reset].ess.cleaned.accent:hover,
+input[type=button].ess.cleaned.accent:hover,
+input[type=submit].ess.cleaned.accent:hover {
+  background: var(--accent-alpha-20);
+}
+
+button.ess.cleaned.accent:disabled,
+submit.ess.cleaned.accent:disabled,
+input[type=reset].ess.cleaned.accent:disabled,
+input[type=button].ess.cleaned.accent:disabled,
+input[type=submit].ess.cleaned.accent:disabled {
+  color: var(--accent);
+  background: var(--accent-alpha-20);
+}
+
+button.ess.cleaned.success,
+submit.ess.cleaned.success,
+input[type=reset].ess.cleaned.success,
+input[type=button].ess.cleaned.success,
+input[type=submit].ess.cleaned.success {
+  color: var(--success);
+  background: transparent;
+}
+
+button.ess.cleaned.success:hover,
+submit.ess.cleaned.success:hover,
+input[type=reset].ess.cleaned.success:hover,
+input[type=button].ess.cleaned.success:hover,
+input[type=submit].ess.cleaned.success:hover {
+  background: var(--success-alpha-20);
+}
+
+button.ess.cleaned.success:disabled,
+submit.ess.cleaned.success:disabled,
+input[type=reset].ess.cleaned.success:disabled,
+input[type=button].ess.cleaned.success:disabled,
+input[type=submit].ess.cleaned.success:disabled {
+  color: var(--success);
+  background: var(--success-alpha-20);
+}
+
+button.ess.cleaned.error,
+submit.ess.cleaned.error,
+input[type=reset].ess.cleaned.error,
+input[type=button].ess.cleaned.error,
+input[type=submit].ess.cleaned.error {
+  color: var(--error);
+  background: transparent;
+}
+
+button.ess.cleaned.error:hover,
+submit.ess.cleaned.error:hover,
+input[type=reset].ess.cleaned.error:hover,
+input[type=button].ess.cleaned.error:hover,
+input[type=submit].ess.cleaned.error:hover {
+  background: var(--error-alpha-20);
+}
+
+button.ess.cleaned.error:disabled,
+submit.ess.cleaned.error:disabled,
+input[type=reset].ess.cleaned.error:disabled,
+input[type=button].ess.cleaned.error:disabled,
+input[type=submit].ess.cleaned.error:disabled {
+  color: var(--error);
+  background: var(--error-alpha-20);
+}
+
+button.ess.cleaned.warn,
+submit.ess.cleaned.warn,
+input[type=reset].ess.cleaned.warn,
+input[type=button].ess.cleaned.warn,
+input[type=submit].ess.cleaned.warn {
+  color: var(--warn);
+  background: transparent;
+}
+
+button.ess.cleaned.warn:hover,
+submit.ess.cleaned.warn:hover,
+input[type=reset].ess.cleaned.warn:hover,
+input[type=button].ess.cleaned.warn:hover,
+input[type=submit].ess.cleaned.warn:hover {
+  background: var(--warn-alpha-20);
+}
+
+button.ess.cleaned.warn:disabled,
+submit.ess.cleaned.warn:disabled,
+input[type=reset].ess.cleaned.warn:disabled,
+input[type=button].ess.cleaned.warn:disabled,
+input[type=submit].ess.cleaned.warn:disabled {
+  color: var(--warn);
+  background: var(--warn-alpha-20);
+}
+
+button.ess.cleaned.info,
+submit.ess.cleaned.info,
+input[type=reset].ess.cleaned.info,
+input[type=button].ess.cleaned.info,
+input[type=submit].ess.cleaned.info {
+  color: var(--info);
+  background: transparent;
+}
+
+button.ess.cleaned.info:hover,
+submit.ess.cleaned.info:hover,
+input[type=reset].ess.cleaned.info:hover,
+input[type=button].ess.cleaned.info:hover,
+input[type=submit].ess.cleaned.info:hover {
+  background: var(--info-alpha-20);
+}
+
+button.ess.cleaned.info:disabled,
+submit.ess.cleaned.info:disabled,
+input[type=reset].ess.cleaned.info:disabled,
+input[type=button].ess.cleaned.info:disabled,
+input[type=submit].ess.cleaned.info:disabled {
+  color: var(--info);
+  background: var(--info-alpha-20);
+}
+
 /* HIGHLIGHTED */
 
 button.ess.highlighted.primary,
@@ -243,4 +458,94 @@ input[type=button].ess.highlighted.primary:hover,
 input[type=submit].ess.highlighted.primary:hover {
   color: var(--white);
   background: var(--primary);
+}
+
+button.ess.highlighted.accent,
+submit.ess.highlighted.accent,
+input[type=reset].ess.highlighted.accent,
+input[type=button].ess.highlighted.accent,
+input[type=submit].ess.highlighted.accent {
+  color: var(--accent);
+  background: var(--accent-25);
+}
+
+button.ess.highlighted.accent:hover,
+submit.ess.highlighted.accent:hover,
+input[type=reset].ess.highlighted.accent:hover,
+input[type=button].ess.highlighted.accent:hover,
+input[type=submit].ess.highlighted.accent:hover {
+  color: var(--white);
+  background: var(--accent);
+}
+
+button.ess.highlighted.success,
+submit.ess.highlighted.success,
+input[type=reset].ess.highlighted.success,
+input[type=button].ess.highlighted.success,
+input[type=submit].ess.highlighted.success {
+  color: var(--success);
+  background: var(--success-25);
+}
+
+button.ess.highlighted.success:hover,
+submit.ess.highlighted.success:hover,
+input[type=reset].ess.highlighted.success:hover,
+input[type=button].ess.highlighted.success:hover,
+input[type=submit].ess.highlighted.success:hover {
+  color: var(--white);
+  background: var(--success);
+}
+
+button.ess.highlighted.error,
+submit.ess.highlighted.error,
+input[type=reset].ess.highlighted.error,
+input[type=button].ess.highlighted.error,
+input[type=submit].ess.highlighted.error {
+  color: var(--error);
+  background: var(--error-25);
+}
+
+button.ess.highlighted.error:hover,
+submit.ess.highlighted.error:hover,
+input[type=reset].ess.highlighted.error:hover,
+input[type=button].ess.highlighted.error:hover,
+input[type=submit].ess.highlighted.error:hover {
+  color: var(--white);
+  background: var(--error);
+}
+
+button.ess.highlighted.warn,
+submit.ess.highlighted.warn,
+input[type=reset].ess.highlighted.warn,
+input[type=button].ess.highlighted.warn,
+input[type=submit].ess.highlighted.warn {
+  color: var(--warn);
+  background: var(--warn-25);
+}
+
+button.ess.highlighted.warn:hover,
+submit.ess.highlighted.warn:hover,
+input[type=reset].ess.highlighted.warn:hover,
+input[type=button].ess.highlighted.warn:hover,
+input[type=submit].ess.highlighted.warn:hover {
+  color: var(--white);
+  background: var(--warn);
+}
+
+button.ess.highlighted.info,
+submit.ess.highlighted.info,
+input[type=reset].ess.highlighted.info,
+input[type=button].ess.highlighted.info,
+input[type=submit].ess.highlighted.info {
+  color: var(--info);
+  background: var(--info-25);
+}
+
+button.ess.highlighted.info:hover,
+submit.ess.highlighted.info:hover,
+input[type=reset].ess.highlighted.info:hover,
+input[type=button].ess.highlighted.info:hover,
+input[type=submit].ess.highlighted.info:hover {
+  color: var(--white);
+  background: var(--info);
 }

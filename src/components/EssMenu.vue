@@ -1,5 +1,5 @@
 <template>
-  <div class="ess menu animated faster" :class="[theme, shadow, animation]" v-show="menuVisible">
+  <div class="ess menu animated faster" :class="[theme, animation]" v-show="menuVisible">
     <slot></slot>
   </div>
 </template>
